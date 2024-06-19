@@ -1,7 +1,7 @@
 function range(min, max, i) {
     let array = [];
 
-    for (let index = min + i; index < max; index += i) {
+    for (let index = min; index <= max; index += i) {
         array.push(index);        
     }
 
